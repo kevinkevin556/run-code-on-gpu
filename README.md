@@ -34,9 +34,9 @@ conda create -n your-env-name python=3.9
 conda activate yout-env-name
 ```
 
-[問：Python 3.11 的虛擬環境可不可以用？]()
+[問：Python 3.11 的虛擬環境可不可以用？](#python-311-%E7%9A%84%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%BB%A5%E7%94%A8)
 
-[問：為什麼一定要建立一個虛擬環境，我直接裝在 base 可不可以？]()
+[問：為什麼一定要建立一個虛擬環境，我直接裝在 base 可不可以？](#%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%80%E5%AE%9A%E8%A6%81%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E6%88%91%E7%9B%B4%E6%8E%A5%E8%A3%9D%E5%9C%A8-base-%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%BB%A5)
 
 #### 3. 安裝 Tensorflow
 在終端機中輸入以下指令安裝 TensorFlow 2.10:
