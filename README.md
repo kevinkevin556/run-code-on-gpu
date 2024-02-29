@@ -12,15 +12,15 @@
 這是對終端機不熟悉的使用者來說最友善的安裝方式。然而根據文件：
 
 > [!CAUTION]
-> 警告：TensorFlow 2.10 是最後一个支持在原生 Windows 上使用 GPU 的 TensorFlow 發行版本。从 TensorFlow 2.11 开始，您需要在 WSL2 中安裝 TensorFlow，或者安裝 tensorflow 或 tensorflow-cpu，并且可以選擇嘗試 TensorFlow-DirectML-Plugin。
+> 警告：TensorFlow 2.10 是最後一個支持在原生 Windows 上使用 GPU 的 TensorFlow 發行版本。從 TensorFlow 2.11 開始，您需要在 WSL2 中安裝 TensorFlow，或者安裝 tensorflow 或 tensorflow-cpu，並且可以選擇嘗試 TensorFlow-DirectML-Plugin。
 
 *我們僅能安裝最新至 2.10 的 TensorFlow 版本。*
 
 #### 1. 安裝 Nvidia GPU 驅動和 Cuda
 依序完成
 * 在 [NVIDIA Driver Downloads](https://www.nvidia.com/download/index.aspx?lang=en-us) 根據作業系統以及顯卡型號下載並安裝驅動程式
-* 在 [CUDA Toolkit Archive]() 選擇 **CUDA® Toolkit 11.8** 下載並安裝
-* 在 [NVIDIA cuDNN]() 點選 Download cuDNN Library 並下載安裝 cuDNN SDK
+* 在 [CUDA Toolkit Archive](https://developer.nvidia.com/cuda-toolkit-archive) 選擇 **CUDA® Toolkit 11.8** 下載並安裝
+* 在 [NVIDIA cuDNN](https://developer.nvidia.com/cudnn) 點選 Download cuDNN Library 並下載安裝 cuDNN SDK
 * 在 [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170) 中下載 Latest Microsoft Visual C++ Redistributable Version 以安裝 Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019
 
 #### 2. 建立虛擬環境
