@@ -29,9 +29,10 @@
 ```shell
 conda create -n your-env-name python=3.9
 ```
-* 接著輸入以下指令來啟用剛剛建立好的環境。
+* 接著輸入以下指令來啟用剛剛建立好的環境，並透過 conda 安裝相關的程式庫。
 ```shell
 conda activate yout-env-name
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 ```
 
 [問：Python 3.11 的虛擬環境可不可以用？](#python-311-%E7%9A%84%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%BB%A5%E7%94%A8)
