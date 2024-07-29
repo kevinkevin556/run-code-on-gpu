@@ -4,8 +4,17 @@
 > [!NOTE]  
 > 需要預先在系統上安裝 Anaconda 或 Miniconda
 
+## 1. PyTorch
+到[PyTorch 官方網站](https://pytorch.org/)，按照需求點選環境後，複製下方出現的指令後在 Terminal/ CMD 內貼上就可以安裝了。
 
-## Tensorflow 
+### 問題
+
+#### 為什麼安裝好了，但是 PyTorch 卻無法找到 GPU ？
+(我有點不確定這個的解法是什麼，時間有點久了...) 其實 PyTorch 背後有個隱性的限制，就是跟 Python 版本的兼容。如果你裝不起來的話，可能是你的 Python 太新或太舊了，可以嘗試 Python 3.8/3.9 左右的版本後試試看。
+
+<br><br>
+
+## 2. Tensorflow 
 中文版的安裝說明因為沒有隨著版本更新修正內容，請參考[英文版安裝說明](https://www.tensorflow.org/install/pip#windows-native)。
 
 ### 原生環境 Windows Native
